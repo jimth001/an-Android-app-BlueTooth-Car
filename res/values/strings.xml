@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BlueToothCar</string>
+    <string name="bt_not_available">蓝牙设备不可用</string>
+    <string name="connect_fail">连接失败..</string>
+    <string name="bt_not_enable">蓝牙打开失败..</string>
+    <string name="connecting">正在连接</string>
+    <string name="not_connected">未连接设备</string>
+    <string name="connected_to">连接到：</string>
+    <string name="connect">连接设备</string>
+    <string name="title_paired_devices">已配对列表</string>
+    <string name="title_new_devices">新设备</string>
+    <string name="button_scan">扫描新设备</string>
+    <string name="none_paired">未配对设备</string>
+    <string name="scanning">扫描中..</string>
+    <string name="none_found">没有找到新设备</string>
+    <string name="select_device">选择要连接的设备</string>
+    <string name="isout">要退出程序吗?</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+    <string name="help">关于</string>
+    <string name="title_other_devices">其他可用设备</string>
+
+</resources>

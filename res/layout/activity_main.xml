@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">"
+            <ImageButton
+		            android:id="@+id/imageButton1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_below="@+id/linearLayout2"
+		            android:layout_marginLeft="24dp"
+		            android:layout_marginTop="78dp"
+		            android:layout_toRightOf="@+id/linearLayout2"
+		            android:src="@drawable/l" />
+            <LinearLayout
+		          android:id="@+id/linearLayout3"
+		          android:layout_width="wrap_content"
+		          android:layout_height="wrap_content"
+		          android:layout_alignParentLeft="true"
+		          android:layout_alignParentTop="true"
+		          android:orientation="vertical">
+		          <ImageButton
+		            android:id="@+id/imageButton2"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_below="@+id/linearLayout3"
+		            android:layout_marginLeft="24dp"
+		            android:layout_marginTop="10dp"
+		            android:layout_toRightOf="@+id/linearLayout3"
+		            android:src="@drawable/q" />
+		          <ImageButton
+		            android:id="@+id/imageButton3"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_below="@+id/linearLayout3"
+		            android:layout_marginLeft="24dp"
+		            android:layout_marginTop="25dp"
+		            android:layout_toRightOf="@+id/linearLayout3"
+		            android:src="@drawable/h" />
+            </LinearLayout>
+            <ImageButton
+		            android:id="@+id/imageButton4"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_below="@+id/linearLayout2"
+		            android:layout_marginLeft="24dp"
+		            android:layout_marginTop="78dp"
+		            android:layout_toRightOf="@+id/linearLayout2"
+		            android:src="@drawable/r" />
+        </LinearLayout>
+
+       
+
+    </RelativeLayout>
